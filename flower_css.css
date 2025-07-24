@@ -13,6 +13,12 @@
   /* lg:mx-[150px] md:mx-[150px] ml-3 w-auto 
   margin- */
 }
+
+button:hover{
+   background-color: var(--color-amber-100);
+   color: black;
+}
+
 @media screen and (max-width: 576px) {
   .container{
     margin-left: 48px;
