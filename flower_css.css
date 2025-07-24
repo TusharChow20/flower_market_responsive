@@ -6,3 +6,16 @@
   font-variation-settings:
     "wdth" 100;
 }
+.container{
+  /* margin-left: 48px; */
+  margin-inline: calc(var(--spacing) * 16);
+  /* width: auto; */
+  /* lg:mx-[150px] md:mx-[150px] ml-3 w-auto 
+  margin- */
+}
+@media screen and (max-width: 576px) {
+  .container{
+    margin-left: 48px;
+    width: auto;
+  }
+}
